@@ -1,0 +1,6 @@
+{
+  "name": "Florence & Florence Law Practice",
+  "description": "Premium, compassionate private legal guidance in Longview, Texas. Serving families, businesses, and property owners in Business, Real Estate, and Estate Planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

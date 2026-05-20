@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Cormorant+Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  --color-brand-navy-950: #0C1D18;
+  --color-brand-navy-900: #12332A;
+  --color-brand-navy-800: #1B4539;
+  --color-brand-navy-700: #255D4E;
+  --color-brand-gold-600: #9E743F;
+  --color-brand-gold-500: #BCA484;
+  --color-brand-gold-400: #DEC7AC;
+  --color-brand-gold-200: #EDE5D9;
+  --color-brand-gold-100: #FAF8F5;
+  --color-brand-warm-white: #FCFAF7;
+  --color-brand-warm-cream: #F5F1E9;
+  --color-brand-charcoal: #2C3532;
+  --color-brand-border-beige: #E3DDD1;
+}
+
+/* Custom styles for high-end boutique aesthetic */
+body {
+  background-color: var(--color-brand-warm-white);
+  color: var(--color-brand-navy-950);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Smooth layout transitions helper */
+.serif-header {
+  font-family: var(--font-serif);
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-warm-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-gold-500);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-gold-600);
+}
+
